@@ -7,3 +7,7 @@ alias dcomud="docker compose up -d"
 
 alias ls='ls --color=auto'
 alias mkdir="mkdir -pv"
+
+cheat() {
+  curl http://cheat.sh/$1
+}
