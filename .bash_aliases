@@ -5,7 +5,11 @@ alias dcomd="docker compose down"
 alias dcomu="docker compose up"
 alias dcomud="docker compose up -d"
 
-alias ls='ls --color=auto'
+alias ls='ls -alF --color=auto'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 alias mkdir="mkdir -pv"
 
 cheat() {
